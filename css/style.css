@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header div p {
+    background-color: #222222;
+    color: #F3F3F3;
+    height: 20px;
+    font-size: 1rem;
+}
+
+header nav {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    height: 62px;
+}
+
+header nav ul ::before {
+    content: url(./img/pawprint_mini.png);
+}
+
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+li {
+    padding: 10px;
+}
+
+.main-principal {
+    background-image: url(./img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    background-color: #FFFFFF;
+    color: #3C2313;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 5px;
+    width: 36.5rem;
+    height: 5.4rem;
+    padding-top: 1rem;
+
+}
+
+.main-principal p {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.main-principal button {
+    border-radius: 5px;
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+
+.productos-destacados h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* .productos-destacados ::before {
+content: url(./img/pawprint\ 1.png);
+} */
+
+.productos-destacados ul li {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-principal button {
+    background-color: #F0A83E;
+    color: #3C2313;
+    height: 49px;
+    width: 141px;
+    border: none;
+}
+
+main div ul li {
+    list-style: none;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedor-productos {
+    background-color: #FBFAF6;
+
+}
+
+
+article {
+    padding: 10px;
+}
+
+main section p {
+    color: #F0A83E;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main section h6 {
+    color: #3C2313;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main form h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form input {
+    background-color: #3C2313;
+    color: white;
+    height: 40px;
+    width: 340px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin: 5px;
+}
+
+/* form button [type="reset"] {
+    background-color: #8A8787;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+}
+
+form button [type="submit"] {
+    background-color: #F0A83E;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+} */
+
+.newsletter {
+    background-color: #F0A83E;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.newsletter p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.newsletter input {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: none;
+}
+
+.newsletter button {
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    height: 34px;
+    width: 70px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+
+
+footer h6 {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+footer p {
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+}
+
