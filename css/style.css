@@ -16,6 +16,8 @@ header div p {
     color: #F3F3F3;
     height: 20px;
     font-size: 1rem;
+    padding-top: 5px;
+    padding-left: 90px;
 }
 
 header nav {
@@ -26,6 +28,7 @@ header nav {
 
 header nav ul ::before {
     content: url(./img/pawprint_mini.png);
+    padding-right: 4px;
 }
 
 .contenedor-header {
@@ -53,52 +56,58 @@ li {
     background-image: url(./img/bowl-and-pet-daities-on-green-background\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 409px;
+    height: 485px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+
 }
+
 
 main h1 {
     background-color: #FFFFFF;
     color: #3C2313;
     font-size: 3rem;
-    text-align: center;
     border-radius: 5px;
     width: 36.5rem;
     height: 5.4rem;
-    padding-top: 1rem;
-
+    padding: 5px;
+    margin-right: 80px;
 }
 
 .main-principal p {
     font-size: 1.6rem;
+    margin-right: 160px;
     color: black;
 }
 
 .main-principal button {
     border-radius: 5px;
     font-size: 1.6rem;
+    margin-right: 190px;
     color: white;
 }
 
-
-
-.productos-destacados h2 {
-    font-size: 40px;
+.productos-destacados {
+    margin-top: 20px;
+    font-size: 34px;
     text-align: center;
 }
 
-/* .productos-destacados ::before {
-content: url(./img/pawprint\ 1.png);
-} */
-
-.productos-destacados ul li {
+.productos-destacados ul {
     font-size: 1.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.productos-destacados ul ::after {
+    content: '-';
+    padding-left: 10px;
+    
 }
 
 .main-principal button {
@@ -121,9 +130,7 @@ main section {
 
 .contenedor-productos {
     background-color: #FBFAF6;
-
 }
-
 
 article {
     padding: 10px;
@@ -144,12 +151,15 @@ main section h6 {
 main form h3{
     font-size: 2.5rem;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 main form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 main form input {
@@ -162,23 +172,27 @@ main form input {
     margin: 5px;
 }
 
-/* form button [type="reset"] {
+.button-form [type="reset"] {
     background-color: #8A8787;
     width: 110px;
     height: 34px;
     font-size: 16px;
     border-radius: 15px;
     color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-form button [type="submit"] {
+.button-form [type="submit"] {
     background-color: #F0A83E;
     width: 110px;
     height: 34px;
     font-size: 16px;
     border-radius: 15px;
     color: white;
-} */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 .newsletter {
     background-color: #F0A83E;
@@ -212,26 +226,44 @@ form button [type="submit"] {
     font-size: 9px;
 }
 
-footer {
-    background-color: #3C2313;
+.datosContacto {
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 80px;
 }
 
 footer h3 {
     font-size: 2rem;
 }
 
-
-
 footer h6 {
     font-size: 1rem;
     margin: 5px;
 }
 
-footer p {
-    background-color: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 10px;
+
+.contenedorFooter{
+    background-color: #3C2313;
+    height: 284px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.logoFooter{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.derechosFooter {
+    background-color: #222222;
+    height: 20px;
+    color: #FFFFFF;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

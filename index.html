@@ -13,16 +13,16 @@
         <div>
             <p>Grandes ofertas en comedores</p>   
         </div>             
-            <nav class="contenedor-header">
-                <div>
-                    <img src="./css/img/Logoheader.png" alt="">
-                </div>
-                <div>
+        <nav class="contenedor-header">
+            <div>
+                <img src="./css/img/Logoheader.png" alt="">
+            </div>
+            <div>
                 <ul>
                     <li>Categoría</li>
                     <li>Pets</li>
                     <li>Nosotros</li>
-                    <li>Contactenos</li>
+                    <li>Contáctenos</li>
                 </ul>
             </div>
             </nav>
@@ -30,7 +30,7 @@
 <main>
     <section class="main-principal">
         <article>
-            <h1>¡Es un placer tenerte aquí</h1>
+            <h1>¡Es un placer tenerte aquí!</h1>
         </article>
         <article>
             <p>¡Comederos en descuento!</p>
@@ -40,6 +40,7 @@
     </section>
 
 <div class="productos-destacados">
+    <img src="./css/img/pawprint 1.png" alt="patita">
     <h2>Productos Destacados</h2>
     <ul>
         <li>Comedores</li>
@@ -75,8 +76,10 @@
         <input type="text" placeholder="Nombre y Apellido">
         <input type="email" placeholder="Ingresa tu correo electrónico">
         <input type="tel" placeholder="Teléfono">
-        <button type="reset">Resetear</button>
-        <button type="submit">Enviar</button>
+        <div class="button-form">
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </div>
     </form>
     <form class="newsletter">
         <p>Suscríbete para más novedades</p>
@@ -87,20 +90,31 @@
     </form>
 </main>
 <footer>
-    <div>
-        <h3>Localidad</h6>
-        <h6>Calle - providencia</p>
+    <section>
+        <div class="contenedorFooter">
+            <article class="datosContacto">
+                <div>
+                    <h3>Localidad</h6>
+                    <p>Calle - providencia</p>
+                </div>
+                <div>
+                    <h3>Teléfono</h6>
+                    <p>Número de teléfono</p>
+                </div>
+                <div>
+                    <h3>Correo Electrónico</h6>
+                    <p>Dirección de correo</p>
+                </div>
+            </article>
+            <article class="logoFooter">
+                <img src="./css/img/LogoFooter.png" alt="">
+            </article>
     </div>
-    <div>
-        <h3>Teléfono</h6>
-        <h6>Número de teléfono</p>
-    </div>
-    <div>
-        <h3>Correo Electrónico</h6>
-        <h6>Dirección de correo</p>
-    </div>
-<img src="./css/img/Logo.png" alt="LogoPetshop">
-<p>Todos los derechos reservados</p>
+
+        <article class="derechosFooter">
+            <p>Todos los derechos reservados</p>
+        </article>
+</section>
 </footer>
 
 </body>
